@@ -68,7 +68,7 @@ class Home extends Component {
 
   loadSharedData() {
     $.ajax({
-      url: `portfolio_shared_data.json`,
+      url: `sw-portfolio-2022/portfolio_shared_data.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
