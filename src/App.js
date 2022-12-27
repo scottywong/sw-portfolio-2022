@@ -90,9 +90,9 @@ class App extends Component {
 
       <BrowserRouter>
         <Routes>
-          <Route element={<Home/>} path='/' />
-          <Route element={<Post/>} path='/posts'/>
-          <Route element={<SinglePost/>} path='/posts/:slug'/>
+          <Route element={<Home/>} path='/sw-portfolio-2022/' />
+          <Route element={<Post/>} path='/sw-portfolio-2022/posts'/>
+          <Route element={<SinglePost/>} path='/sw-portfolio-2022/posts/:slug'/>
         </Routes>
       </BrowserRouter>
     );

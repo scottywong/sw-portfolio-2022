@@ -22,6 +22,7 @@ class Home extends Component {
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
+    console.log(' document.documentElement', document.documentElement);
     console.log(document.documentElement.lang);
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
